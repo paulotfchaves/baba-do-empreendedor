@@ -1,0 +1,51 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Vite cache
+.vite/
+
+# Typescript cache
+*.tsbuildinfo
+
+# Output of 'tsc' and other build artifacts
+dist/
+build/
+
+# Tailwind JIT mode cache files
+.tailwind/
+
+# Storybook build artifacts
+out/
+.storybook-out/
+storybook-static/
+
+# VS Code files
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Optional npm cache directory
+.npm/
+
+# IDE-specific files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Debug and diagnostics
+coverage/
+.cache/

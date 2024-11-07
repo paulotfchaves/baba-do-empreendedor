@@ -1,0 +1,102 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction" />
+
+# Babá do Empreendedor - Design System
+
+Bem-vindo à documentação do Design System do Babá do Empreendedor. Este guia fornece uma visão geral dos componentes, padrões e diretrizes de design usados em nossa aplicação.
+
+## Princípios de Design
+
+- **Mobile First**: Todos os componentes são projetados pensando primeiro na experiência móvel
+- **Acessibilidade**: Seguimos as diretrizes WCAG para garantir que nossa aplicação seja acessível
+- **Consistência**: Mantemos uma experiência visual e interativa consistente em toda a aplicação
+- **Feedback Visual**: Fornecemos feedback claro para todas as interações do usuário
+
+## Paleta de Cores
+
+- **Principal**: #FF66B2 (Rosa)
+- **Secundária**: #33CCCC (Turquesa)
+- **Texto**: #1F2937 (Cinza Escuro)
+- **Fundo**: #F2F2F2 (Cinza Claro)
+
+## Tipografia
+
+Utilizamos a fonte do sistema por padrão, com as seguintes variações:
+- **Títulos**: font-bold
+- **Texto**: font-normal
+- **Links**: text-[#FF66B2]
+
+## Componentes Base
+
+### Formulários
+
+Todos os elementos de formulário seguem um padrão consistente:
+- Altura mínima de 48px para melhor usabilidade em dispositivos móveis
+- Estados claros de foco e erro
+- Labels descritivos e obrigatórios marcados com asterisco
+- Feedback visual imediato
+
+### Botões
+
+Oferecemos diferentes variações de botões:
+- **Primary**: Usado para ações principais
+- **Secondary**: Usado para ações secundárias
+- **Tamanhos**: sm, md, lg
+- **Estados**: normal, hover, active, disabled, loading
+
+### Inputs
+
+Inputs padronizados com:
+- Suporte a ícones
+- Estados de erro
+- Máscaras (quando necessário)
+- Placeholders informativos
+
+### Seleção de Data
+
+Componentes especializados para seleção de data:
+- DatePicker: Seleção de data única
+- DateRangePicker: Seleção de período
+
+## Boas Práticas
+
+1. **Validação de Formulários**
+   - Sempre forneça feedback visual imediato
+   - Mensagens de erro claras e específicas
+   - Validação em tempo real quando apropriado
+
+2. **Responsividade**
+   - Use as classes do Tailwind para garantir layouts responsivos
+   - Teste em diferentes tamanhos de tela
+   - Considere diferentes densidades de pixel
+
+3. **Performance**
+   - Lazy load de componentes quando apropriado
+   - Otimize imagens e assets
+   - Minimize o número de re-renders
+
+4. **Acessibilidade**
+   - Use atributos ARIA apropriadamente
+   - Garanta navegação por teclado
+   - Mantenha contraste adequado
+
+## Contribuindo
+
+1. Siga os padrões estabelecidos nesta documentação
+2. Documente novos componentes usando Storybook
+3. Teste em diferentes dispositivos e navegadores
+4. Mantenha a consistência com o design system existente
+
+## Executando a Documentação
+
+```bash
+# Instalar dependências
+npm install
+
+# Iniciar Storybook
+npm run storybook
+
+# Construir documentação estática
+npm run build-storybook
+```
