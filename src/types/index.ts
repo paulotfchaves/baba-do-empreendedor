@@ -24,6 +24,7 @@ export interface Goal {
   workdays: string[];
   status: "waiting" | "in_progress" | "completed";
   imageUrl: string;
+  initialDailyGoal: number;
   completed: boolean;
   completedDate: string;
 }
