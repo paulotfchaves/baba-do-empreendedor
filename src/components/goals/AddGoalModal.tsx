@@ -381,7 +381,9 @@ export default function AddGoalModal({
               por dia de trabalho
             </p>
             <p className="text-sm text-gray-500 mt-2">
-              Total de {totalWorkDays} dias de trabalho no período selecionado
+              Total de {totalWorkDays} dias de trabalho no período selecionado,
+              o valor acima é VIÁVEL para você? Caso não seja, aumente o prazo
+              final do seu sonho.
             </p>
           </div>
         )}
